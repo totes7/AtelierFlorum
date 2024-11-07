@@ -23,7 +23,26 @@ function Home() {
             <p> -Diana & Rebecca</p>
           </div>
         </div>
-        <div className="links"></div>
+        <div className="links">
+          <div className="link-card">
+            <h1>SERVICES</h1>
+            <p>Fresh Flowers</p>
+            <p>Tablescaping</p>
+            <p>Installations</p>
+            <p>Hire Props</p>
+            <p>and More...</p>
+          </div>
+          <div className="link-card">
+            <h1>SOCIAL</h1>
+            <p>Follow us on Instagram!</p>
+            <i class="fab fa-instagram" />
+          </div>
+          <div className="link-card">
+            <h1>ATELIER CAFÈ</h1>
+            <p>Check out our upcoming events.</p>
+            <i class="fa-solid fa-calendar-days" />
+          </div>
+        </div>
       </div>
     </>
   );
